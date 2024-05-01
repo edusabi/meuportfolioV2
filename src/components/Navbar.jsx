@@ -29,21 +29,29 @@ const Navbar = () => {
       icon.setAttribute("name", "sunny");
     }
   }, []);
-
+  
+  
+  useEffect(()=>{
+    const itens = document.querySelector(".itens");
+    
+    if(!itens.classList.contains("ativo")){
+      document.querySelector("body").style.overflowY = "auto";   
+    };
+    
+  }, [])
   
   const handleNavbar = ()=>{
+    const itens = document.querySelector(".itens");
 
     const line1 = document.querySelector(".line1")
     const line2 = document.querySelector(".line2")
     const line3 = document.querySelector(".line3")
 
-    const itens = document.querySelector(".itens")
     
     
-    itens.classList.remove("ativo")
-    document.querySelector("body").style.overflowY = "auto";   
-
+      
     if(itens.classList.contains("ativo")){
+      itens.classList.remove("ativo")
       document.querySelector("body").style.overflowY = "auto";   
       
       line2.style.display = 'block' 
@@ -62,8 +70,8 @@ const Navbar = () => {
       line3.style.transform = 'rotate(45deg) '
     }
     
-
   }
+  
 
   return (
     <nav className="navbar dark-mode">
@@ -77,13 +85,13 @@ const Navbar = () => {
       </div>
       
       <ul className="itens">
-        <NavLink to="/" className="navlink" onClick={()=> body.style.overflowY = "auto" }>
+        <NavLink to="/" className="navlink">
           Home
         </NavLink>
-        <NavLink to="/tecnologia" className="navlink" onClick={()=> body.style.overflowY = "auto" }>
+        <NavLink to="/tecnologia" className="navlink">
           Tecnologias
         </NavLink>
-        <NavLink to="/about" className="navlink" onClick={()=> body.style.overflowY = "auto" }>
+        <NavLink to="/about" className="navlink">
           Sobre
         </NavLink>
       </ul>
