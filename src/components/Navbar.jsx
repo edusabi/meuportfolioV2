@@ -37,6 +37,10 @@ const Navbar = () => {
     if(!itens.classList.contains("ativo")){
       document.querySelector("body").style.overflowY = "auto";   
     };
+
+    if(itens.classList.contains("ativo")){
+      document.querySelector("body").style.overflowY = "hidden";   
+    };
     
   }, [])
   
