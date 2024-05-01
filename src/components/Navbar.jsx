@@ -40,8 +40,10 @@ const Navbar = () => {
     const itens = document.querySelector(".itens")
     
     
+    itens.classList.remove("ativo")
+    document.querySelector("body").style.overflowY = "auto";   
+
     if(itens.classList.contains("ativo")){
-      itens.classList.remove("ativo")
       document.querySelector("body").style.overflowY = "auto";   
       
       line2.style.display = 'block' 
@@ -56,12 +58,12 @@ const Navbar = () => {
       line2.style.display = 'none'
       
       line1.style.transform = 'rotate(-45deg) translate(-7px,7px)'
-
+      
       line3.style.transform = 'rotate(45deg) '
     }
+    
 
-
-}
+  }
 
   return (
     <nav className="navbar dark-mode">
@@ -75,13 +77,13 @@ const Navbar = () => {
       </div>
       
       <ul className="itens">
-        <NavLink to="/" className="navlink">
+        <NavLink to="/" className="navlink" onClick={()=> body.style.overflowY = "auto" }>
           Home
         </NavLink>
-        <NavLink to="/tecnologia" className="navlink">
+        <NavLink to="/tecnologia" className="navlink" onClick={()=> body.style.overflowY = "auto" }>
           Tecnologias
         </NavLink>
-        <NavLink to="/about" className="navlink">
+        <NavLink to="/about" className="navlink" onClick={()=> body.style.overflowY = "auto" }>
           Sobre
         </NavLink>
       </ul>
