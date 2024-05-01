@@ -1,0 +1,126 @@
+.navbar{
+    color: var(--color-dark);
+
+    letter-spacing: 1.5px;
+    font-size: 17px;    
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+
+    background-color: var(--background-dark);
+    height: 15vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-bottom: 2px solid var(--border-dark);
+    transition: .3s all;
+}
+
+.navbar span{
+    z-index: 1;
+    font-size: 25px;
+    display: flex;
+    font-weight: 500;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.active{
+    background-color: var(--border-dark);
+    padding: 5px;
+    color: var(--color-dark-active) !important;
+    transition: .3s all;
+}
+
+.navlink{
+    border-radius: 2px;
+    padding: .6rem;
+
+    color: var(--color-dark);
+
+    z-index: 1;
+}
+
+.mode{
+    cursor: pointer;
+}
+
+.iconTheme{
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconTheme:hover{
+    background: var(--icon-color);
+    border-radius: 50%;
+    
+}
+
+.navbarLine{
+    display: none;
+    cursor: pointer;
+}
+
+.navbarLine div{
+    border-radius: 1px;
+    width: 32px;
+    height: 2px;
+    background: var(--color-dark);
+    margin: 8px;
+    transition: .4s;
+}
+
+@media (max-width: 630px){
+
+    ion-icon{
+        font-size: 2rem;
+    }
+    
+    .navbarLine{
+        display: block;
+        margin-left: 2rem ;
+    }
+    
+    .navbar .itens{
+        position: absolute;
+        left: 0;
+        top: 15%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 11rem;
+        font-size: 3rem;
+        text-align: center;
+        z-index: 1;
+        width: 100vw;
+        transform: translateX(-100%);
+        backdrop-filter: blur(10px);
+        transition: .4s all;
+        margin-top: 2rem;
+    }
+
+    .navlink{
+        margin-bottom: 1rem;
+    }
+    
+    .navbar .itens.ativo{
+        transform: translateX(0);
+
+    }
+
+}
+
+@media (max-width: 420px){
+    .navbarLine{
+        margin-left: 1rem ;
+    }
+
+    .linguagens{
+        height: 70vh;
+    }
+}

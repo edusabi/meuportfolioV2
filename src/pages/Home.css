@@ -1,0 +1,247 @@
+.home{
+    color: var(--color-dark);
+    transition: .3s all;
+}
+
+.home .titulo{
+    margin-left: .7rem;
+    font-size: 3em;
+    max-width: 300px;
+    letter-spacing: 2px;
+}
+
+.home .text{
+    margin-left: .7rem;
+    color: gray;
+    letter-spacing: 1.5px;
+}
+
+.homeIntro{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonsIntro{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.buttonsIntro button{
+    font-size: 1rem;
+}
+
+.buttonsIntro a,button{
+    background-color: var(--border-dark);
+    padding: .7rem 1.2rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+    /* border: 1.5px solid var(--color-dark); */
+    color: var(--color-dark-active);
+    transition: .4s all;
+}
+
+.buttonsIntro button:hover,
+.buttonsIntro a:hover{
+    transform: scale(0.9);
+}
+
+.img{
+    animation: float 3s ease-in-out infinite;
+}
+
+.img img{
+    width: 350px;
+    border-radius: 50%;
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-30px);
+    }
+}
+
+.projects{
+    margin-top: 5rem;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.projects .aboutProjects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.projects .aboutProjects p{
+    border-bottom: 3px solid var(--border-dark);
+    border-radius: 1px;
+    text-align: center;
+
+    width: 280px;
+    margin-bottom: 1.5rem;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+}
+
+.projects .aboutProjects span{
+    max-width: 700px;
+    letter-spacing: .7px;
+    text-align: justify;
+}
+
+.reposAbout{
+    color: var(--color-dark);
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+    max-width: 700px;
+}
+
+.reposAbout .reposAbout-div{
+    background-color: var(--border-dark);
+    border-radius: 2px;
+    padding: 1rem;
+    width: 300px;
+    
+    color: var(--color-dark-active);
+}
+
+.reposAbout .reposAbout-div .repoAbout{
+    margin-bottom: 1.5rem;
+}
+
+.reposAbout .reposAbout-div .languageUsage{
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+    gap: .5rem;
+}
+
+.reposAbout .reposAbout-div .divLinks .repoPage, .repoGit{
+    color: var(--color-dark-active);
+    transition: .4s all;
+}
+
+.reposAbout .reposAbout-div .divLinks .repoPage:hover, .repoGit:hover{
+    color: var(--color-dark);
+}
+
+.reposAbout .reposAbout-div .divLinks{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-top: .7rem;
+}
+
+.redesSociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+
+    margin-top: 10rem;
+
+    height: 100vh;
+}
+
+.redesSociais h2{
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+}
+
+.redesSociais-img{
+    display: flex;
+    gap: 7rem;
+}
+
+.redesSociais-img .redeS{
+    font-size: 2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .7rem;
+    border-radius: 50%;
+
+    background-color: var(--border-dark);
+    color: var(--color-dark-active);
+
+    transition: .5s all;
+}
+
+.redesSociais-img .redeS:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 750px){
+    .homeIntro{
+        flex-direction: column;
+    }
+    
+    .home .titulo{
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+    
+    .homeIntro .imgAbout{
+        margin-bottom: 4rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .projects{
+        margin-top: 5rem;
+    }
+    
+    .home .aboutProjects{
+        max-width: 600px;
+    }
+    
+    .reposAbout{
+        width: 300px;
+    }
+    
+    .redesSociais{
+        margin-top: 15rem;
+    }
+}
+
+@media (max-width: 630px){
+    .projects .aboutProjects span{
+        max-width: 570px;
+    }
+}
+
+@media (max-width: 575px){
+    .redesSociais-img{
+        gap: 2rem;
+    }
+
+    .projects .aboutProjects span{
+        max-width: 300px;
+    }
+}
