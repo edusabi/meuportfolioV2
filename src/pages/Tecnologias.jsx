@@ -28,6 +28,11 @@ const Tecnologias = () => {
             <h3>JavaScript</h3>
           </div>
 
+          <div className="typescript">
+            <SiTypescript/>
+            <h3>Typescript</h3>
+          </div>
+
           <div className="node">
             <FaNodeJs/>
             <h3>Node</h3>
@@ -51,11 +56,6 @@ const Tecnologias = () => {
           <div className="github">
             <FaGithub/>
             <h3>GitHub</h3>
-          </div>
-          
-          <div className="typescript">
-            <SiTypescript/>
-            <h3>Typescript</h3>
           </div>
 
           <div className="git">
