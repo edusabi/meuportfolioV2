@@ -14,7 +14,7 @@ const About = () => {
             em Full-Stack e sempre busco adquirir novos
             conhecimentos na área de programação. Visto que,
             tenho realizado com excelência diversos projetos
-            mediante o JavaScript, simultaneamente com suas
+            mediante o JavaScript e o TypeScript, simultaneamente com suas
             Bibliotecas, Frameworks e banco de dados.
           </p>
           <div className="linguas">
