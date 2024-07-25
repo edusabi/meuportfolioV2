@@ -65,6 +65,11 @@
     border-bottom: 2px solid orange;
 }
 
+.linguagens .typescript{
+    /* box-shadow: 0 0 10px aqua; */
+    border-bottom: 2px solid blue;
+}
+
 .linguagens .mongo{
     /* box-shadow: 0 0 10px #3FA037; */
     border-bottom: 2px solid #3FA037;
