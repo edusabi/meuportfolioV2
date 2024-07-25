@@ -8,6 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 ///CSS
 import "./Tecnologias.css"
@@ -50,6 +51,11 @@ const Tecnologias = () => {
           <div className="github">
             <FaGithub/>
             <h3>GitHub</h3>
+          </div>
+          
+          <div className="typescript">
+            <SiTypescript/>
+            <h3>Typescript</h3>
           </div>
 
           <div className="git">
