@@ -29,7 +29,7 @@ const Tecnologias = () => {
           </div>
 
           <div className="typescript">
-            <SiTypescript/>
+            <SiTypeScript/>
             <h3>Typescript</h3>
           </div>
 
