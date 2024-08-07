@@ -29,8 +29,8 @@ const Tecnologias = () => {
           </div>
 
           <div className="typescript">
-            <SiTypeScript/>
-            <h3>Typescript</h3>
+            <SiTypescript/>
+            <h3>TypeScript</h3>
           </div>
 
           <div className="node">
