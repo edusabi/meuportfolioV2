@@ -9,6 +9,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 
 ///CSS
 import "./Tecnologias.css"
@@ -51,6 +52,11 @@ const Tecnologias = () => {
           <div className="mongo">
             <DiMongodb/>
             <h3>MongoDb</h3>
+          </div>
+
+          <div className="mysql">
+            <GrMysql/>
+            <h3>MySQL</h3>
           </div>
 
           <div className="github">
