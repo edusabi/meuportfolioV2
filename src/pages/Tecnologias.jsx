@@ -29,11 +29,6 @@ const Tecnologias = () => {
             <h3>JavaScript</h3>
           </div>
 
-          <div className="typescript">
-            <SiTypescript/>
-            <h3>TypeScript</h3>
-          </div>
-
           <div className="node">
             <FaNodeJs/>
             <h3>Node</h3>
