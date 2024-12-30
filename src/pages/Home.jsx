@@ -100,7 +100,7 @@ typeWrite(titulo);
         <div className="projects">
           <div className="aboutProjects">
             <p>Meus projetos</p>
-            <span>Desenvolvi diversos projetos pessoais na área de desenvolvimento web, que variaram desde a criação de websites estáticos até a implementação de aplicativos web interativos. Em cada um desses projetos, obtive uma proficiência sólida em tecnologias-chave, como HTML, CSS, JavaScript, TypeScript, React, além de experiência em back-end com Node.js. Esses projetos pessoais foram essenciais para o meu crescimento e especialização contínuos na área de desenvolvimento web. </span>
+            <span>Desenvolvi diversos projetos pessoais na área de desenvolvimento web, que variaram desde a criação de websites estáticos até a implementação de aplicativos web interativos. Em cada um desses projetos, obtive uma proficiência sólida em tecnologias-chave, como HTML, CSS, JavaScript, React, além de experiência em back-end com Node.js e API REST. Esses projetos pessoais foram essenciais para o meu crescimento e especialização contínuos na área de desenvolvimento web. </span>
           </div>
 
 

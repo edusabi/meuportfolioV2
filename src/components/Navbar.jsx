@@ -89,15 +89,23 @@ const Navbar = () => {
       </div>
       
       <ul className="itens">
+
         <NavLink to="/" className="navlink">
           Home
         </NavLink>
+
         <NavLink to="/tecnologia" className="navlink">
           Tecnologias
         </NavLink>
+
+        <NavLink to="/certificações" className="navlink">
+          Certificados
+        </NavLink>
+
         <NavLink to="/about" className="navlink">
           Sobre
         </NavLink>
+
       </ul>
 
 

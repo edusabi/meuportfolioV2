@@ -4,10 +4,11 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 
 ////Pages
-import Home from './pages/Home'
-import NotFound from './pages/NotFound'
-import About from './pages/About'
-import Tecnologias from './pages/Tecnologias'
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+import About from './pages/About';
+import Tecnologias from './pages/Tecnologias';
+import Certificados from './pages/Certificados';
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
 
         <Route path='/about' element={<About/>}></Route>
+        
+        <Route path='/certificações' element={<Certificados/>}></Route>
 
         <Route path='/tecnologia' element={<Tecnologias/>}></Route>
 

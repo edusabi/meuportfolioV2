@@ -45,6 +45,16 @@
     font-size: .8rem;
 } 
 
+.linguagens .html{
+    /* box-shadow: 0 0 10px yellow; */
+    border-bottom: 2px solid #e36c26;
+}
+
+.linguagens .css{
+    /* box-shadow: 0 0 10px yellow; */
+    border-bottom: 2px solid #264de4;
+}
+
 .linguagens .js{
     /* box-shadow: 0 0 10px yellow; */
     border-bottom: 2px solid yellow;
