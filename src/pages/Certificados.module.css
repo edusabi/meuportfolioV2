@@ -4,5 +4,32 @@
 }
 
 .titleCertificado{
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+
+.divPrincDivs {
+    margin-top: 5rem; /* Remova o margin-top */
+    margin-bottom: 15rem; /* Remova o margin-top */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    box-sizing: border-box; /* Garante um comportamento esperado do layout */
+    gap: 2rem; /* Espaço entre as divs internas */
+}
+
+.divPrincDivs div {
+    background-color: var(--border-dark);
+    width: 400px;
+    padding: .5rem;
+    height: 250px;
+    text-align: center; 
+    border-radius: 4px; 
+}
+
+.divPrincDivs div h1 {
+    font-size: 1.2rem;
+    color: #fff; /* Ajuste a cor do texto, se necessário */
+    margin: 0; /* Remove o espaçamento padrão dos headings */
 }
