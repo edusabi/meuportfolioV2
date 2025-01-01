@@ -35,7 +35,9 @@
 }
 
 .divHrsLingua{
-    margin-top: 1rem;
+    margin-top: 2rem;
+    height: 18vh;
+    border-radius: 2px;
     justify-content: space-around;
     color: var(--color-dark-active);
     display: flex;
