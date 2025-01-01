@@ -1,5 +1,5 @@
 .divPrincCertificados{
-    color: #fff;
+    color: var(--color-dark);
     text-align: center;
 }
 
@@ -19,7 +19,7 @@
     gap: 2rem; /* Espaço entre as divs internas */
 }
 
-.divPrincDivs div {
+.divPrincDivs .DivBox {
     background-color: var(--border-dark);
     width: 400px;
     padding: .5rem;
@@ -30,6 +30,23 @@
 
 .divPrincDivs div h1 {
     font-size: 1.2rem;
-    color: #fff; /* Ajuste a cor do texto, se necessário */
-    margin: 0; /* Remove o espaçamento padrão dos headings */
+    color: var(--color-dark-active); /* Ajuste a cor do texto, se necessário */
+    margin-top: 5px;
+}
+
+.divHrsLingua{
+    margin-top: 1rem;
+    justify-content: space-around;
+    color: var(--color-dark-active);
+    display: flex;
+}
+
+.divHrsLingua div{
+    display: flex;
+    gap: 5px;
+    font-size: 1.2rem;
+}
+
+.divIconsLingua{
+    font-size: 1.5rem !important;
 }
