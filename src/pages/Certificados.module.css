@@ -23,7 +23,7 @@
     background-color: var(--border-dark);
     width: 400px;
     padding: .5rem;
-    height: 250px;
+    height: 230px;
     text-align: center; 
     border-radius: 4px; 
 }
@@ -31,7 +31,7 @@
 .divPrincDivs div h1 {
     font-size: 1.2rem;
     color: var(--color-dark-active); /* Ajuste a cor do texto, se necessário */
-    margin-top: 5px;
+    margin-top: 1rem;
 }
 
 .divHrsLingua{
