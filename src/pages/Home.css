@@ -20,7 +20,7 @@
 
 .homeIntro{
     display: flex;
-    height: 100vh;
+    height: 85vh;
     justify-content: space-around;
     align-items: center;
 }
@@ -117,7 +117,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem 2rem;
+    gap: 2rem 2rem;
 }
 
 .reposAbout .reposAbout-div{
@@ -161,7 +161,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 5rem;
+    gap: 2.5rem;
     
     height: auto;
     padding: 2rem 0;
@@ -198,7 +198,7 @@
 
 @media (max-width: 950px){
     .redesSociais{
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 }
 
