@@ -1,6 +1,8 @@
 .home{
     color: var(--color-dark);
     transition: .3s all;
+    width: 100%;
+    height: 100vh;
 }
 
 .home .titulo{
@@ -76,12 +78,13 @@
 
 .projects{
     margin-top: 5rem;
-    height: 100vh;
+    height: auto;
     
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
+    margin: 2rem 0;
 }
 
 .projects .aboutProjects{
@@ -110,13 +113,11 @@
 .reposAbout{
     color: var(--color-dark);
     
-    margin-top: 3rem;
+    margin: 2rem 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
-    
-    max-width: 1000px;
+    gap: 1rem 2rem;
 }
 
 .reposAbout .reposAbout-div{
@@ -162,7 +163,8 @@
     flex-direction: column;
     gap: 5rem;
     
-    height: 100vh;
+    height: auto;
+    padding: 2rem 0;
 }
 
 .redesSociais h2{
