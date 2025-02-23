@@ -20,7 +20,7 @@ const NotFound = () => {
 
       <Link to="/" className={Styles.voltar}>Voltar</Link>
 
-      <h1>ERROR 404</h1>
+      <h1>ERROR 403 (Forbidden)</h1>
 
       <h2>Página não encontrada</h2>
 

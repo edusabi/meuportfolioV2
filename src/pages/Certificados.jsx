@@ -14,6 +14,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import { SiFlask } from "react-icons/si";
 
 const Certificados = () => {
   return (
@@ -177,6 +178,42 @@ const Certificados = () => {
 
           </div>
         </div>
+
+
+      <div className={Style.DivBox}>
+          <h1>
+          NLW Connect  - JAVA - Rocketseat
+          </h1>
+
+          <div className={Style.divHrsLingua}>
+            <div>
+              <p>5Hrs</p>
+            </div>
+
+            <div className={Style.divIconsLingua}>
+              <FaJava/>
+            </div>
+          </div>
+        </div>
+
+      <div className={Style.DivBox}>
+          <h1>
+          NLW Connect  - Python - Rocketseat
+          </h1>
+
+          <div className={Style.divHrsLingua}>
+            <div>
+              <p>5Hrs</p>
+            </div>
+
+            <div className={Style.divIconsLingua}>
+              <FaPython/>
+              <SiFlask/>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   );

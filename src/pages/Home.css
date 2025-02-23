@@ -162,9 +162,10 @@
     justify-content: center;
     flex-direction: column;
     gap: 2.5rem;
+ 
     
     height: auto;
-    padding: 2rem 0;
+    padding: 8rem 0;
 }
 
 .redesSociais h2{

@@ -1,15 +1,11 @@
 ////icons
 import { IoLogoJavascript } from "react-icons/io";
-import { FaNodeJs } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
+import { FaNodeJs, FaReact, FaGithub, FaGitAlt, FaCss3Alt, FaHtml5, FaPython, FaBootstrap } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { FaGithub } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
+import { SiFlask } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 ///CSS
 import "./Tecnologias.css"
@@ -49,6 +45,16 @@ const Tecnologias = () => {
             <h3>React</h3>
           </div>
 
+          <div className="python">
+            <FaPython/>
+            <h3>Python</h3>
+          </div>
+
+          <div className="flask">
+            <SiFlask/>
+            <h3>Flask</h3>
+          </div>
+
           <div className="mongo">
             <DiMongodb/>
             <h3>MongoDb</h3>
@@ -57,6 +63,11 @@ const Tecnologias = () => {
           <div className="mysql">
             <GrMysql/>
             <h3>MySQL</h3>
+          </div>
+
+          <div className="postgress">
+            <BiLogoPostgresql/>
+            <h3>Postgresql</h3>
           </div>
 
           <div className="github">

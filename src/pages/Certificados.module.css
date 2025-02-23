@@ -8,15 +8,14 @@
 }
 
 .divPrincDivs {
-    margin-top: 5rem; /* Remova o margin-top */
-    margin-bottom: 15rem; /* Remova o margin-top */
+    margin-top: 5rem; 
+    margin-bottom: 10rem;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
-    height: 100vh; /* Ocupa toda a altura da viewport */
-    box-sizing: border-box; /* Garante um comportamento esperado do layout */
-    gap: 2rem; /* Espaço entre as divs internas */
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+    gap: 2rem; 
 }
 
 .divPrincDivs .DivBox {
