@@ -85,7 +85,7 @@ typeWrite(titulo);
             <span className="text">Desenvolvedor Full-Stack</span>
 
             <div className="buttonsIntro">
-            <a href="/curriculo.pdf" download="curriculo.pdf">Download CV</a>
+            <a href="/CurriculoLES.pdf" download="CurriculoLES.pdf">Download CV</a>
             <Link to="mailto:luiseduardodevv@gmail.com" >Entrar em contato</Link>
             </div>
 
