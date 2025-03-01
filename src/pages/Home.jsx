@@ -92,7 +92,7 @@ typeWrite(titulo);
           </div>
           
           <div>
-            <h2 className="img"><img src="" alt="" /></h2>
+            <h2 className="img"><img src="/myFoto.png" alt="" /></h2>
           </div>
         </div>
 
