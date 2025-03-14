@@ -82,6 +82,11 @@
     border-bottom: 2px solid #00758f;
 }
 
+.linguagens .sqlite{
+    /* box-shadow: 0 0 10px #3FA037; */
+    border-bottom: 2px solid #90D4F4;
+}
+
 .linguagens .github{
     /* box-shadow: 0 0 10px #24292e; */
     border-bottom: 2px solid #7a868c;

@@ -1,11 +1,9 @@
 ////icons
 import { IoLogoJavascript } from "react-icons/io";
 import { FaNodeJs, FaReact, FaGithub, FaGitAlt, FaCss3Alt, FaHtml5, FaPython, FaBootstrap } from "react-icons/fa";
-import { DiMongodb } from "react-icons/di";
-import { SiExpress } from "react-icons/si";
+import { DiMongodb, BiLogoPostgresql } from "react-icons/di";
+import { SiExpress, SiSqlite, SiFlask } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { SiFlask } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
 
 ///CSS
 import "./Tecnologias.css"
@@ -63,6 +61,11 @@ const Tecnologias = () => {
           <div className="mysql">
             <GrMysql/>
             <h3>MySQL</h3>
+          </div>
+
+          <div className="sqlite">
+            <SiSqlite/>
+            <h3>SQLite</h3>
           </div>
 
           <div className="postgress">
