@@ -1,7 +1,8 @@
 ////icons
 import { IoLogoJavascript } from "react-icons/io";
 import { FaNodeJs, FaReact, FaGithub, FaGitAlt, FaCss3Alt, FaHtml5, FaPython, FaBootstrap } from "react-icons/fa";
-import { DiMongodb, BiLogoPostgresql } from "react-icons/di";
+import { DiMongodb } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { SiExpress, SiSqlite, SiFlask } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
